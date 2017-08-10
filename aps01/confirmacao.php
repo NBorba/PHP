@@ -3,9 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PHP - Aula 04 - Respostas</title>
+	<!-- Referências -->
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Lato:300,400" rel="stylesheet">
 </head>
 <body>
-	<a href="index.php">Voltar p/ início do cadastro</a>
+	<!--<a href="index.php">Voltar p/ início do cadastro</a>-->
 
 	<?php 
 		// Recebe dados dos campos da Etapa 1
@@ -20,7 +23,7 @@
 		$fornecedorPrecoProd	= $_POST['fornecedorPrecoProd'];
 		$precoProd				= $_POST['precoProd'];
 		$pesoProd				= $_POST['pesoProd'];
-		$garantiaProd			= $_POST['garantia'];
+		$garantiaProd			= $_POST['garantiaProd'];
 
 		if (!empty($_POST['localEstoque']) &&
 			!empty($_POST['unidade']) &&
@@ -30,7 +33,11 @@
 			$unidadeProd	= $_POST['unidade'];
 			$qtdEstoqueProd	= $_POST['qtdEstoqueProd'];
 			$descontoMaxProd = $_POST['descontoMaxProd'];
-			$filiaisVenda = $_POST['filiaisVenda'];
+			if (!empty($_POST['filiaisVenda'])) {
+				$filiaisVenda = $_POST['filiaisVenda'];
+			} else {
+				$filiaisVenda = 'Nenhuma filial de venda escolhida';
+			}
 		} else {
 			// Volta para a etapa anterior caso algum dos campos não esteja preenchido
 			echo '<script type="text/javascript">';
@@ -39,9 +46,11 @@
 		}
 
 		// Título da página 
-		echo "<h2>Aluno Cadastrado</h2>";
+		echo "<h2>Cadastro de Produto <span class='subtitulo'>Confirmação dos dados</span></h2>";
 		echo "<hr>";
-		echo "<u><b>Dados Pessoais</u></b><br>";
+		echo "<p class='subtitulo-confirmacao'>Etapa 1</p>";
+		echo "<div class='linha-confirmacaoEtapa'></div>"
+		/*echo "<u><b>Dados Pessoais</u></b><br>";
 		echo "<b> Nome: </b>" . $nome . "<br>";
 		echo "<b> Idade: </b>" . $idade . "<br>";
 		echo "<b> CPF: </b>" . $cpf . "<br>";
@@ -64,8 +73,7 @@
 			echo "- " . $preferencia . "<br>";
 		}
 		echo "<b> Turno: </b>" . $turno . "<br>";
-		echo "<hr>";
-	 ?>
+		echo "<hr>";*/	 ?>
 	
 </body>
 </html>

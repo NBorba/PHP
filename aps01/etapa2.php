@@ -5,7 +5,7 @@
 	<title>APS 01 - Cadastro de produto</title>
 	<!-- Referências -->
 	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Lato:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Lato:300,400" rel="stylesheet">
 	<script type="text/javascript" src="js/validacao.js"></script>
 </head> 
 <body>
