@@ -48,3 +48,20 @@ function validaEtapaTres() {
 		alert('Você deve preencher todos os campos antes de prosseguir!');
 	}
 }
+
+function redireciona(pagina) {
+	window.location = pagina + '.php';
+}
+
+function voltaHistorico(vezes) {
+	var qtdFinal = '-';
+
+	if (vezes == null) {
+		vezes = 1;
+	}
+	
+	qtdFinal += vezes;
+
+	history.go(qtdFinal);
+
+}

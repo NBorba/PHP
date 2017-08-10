@@ -70,12 +70,7 @@ h2 {
 	margin-top: 10px;
 }
 
-.botao-anterior {
-    background-color: #F1F1F1;
-    color: black;
-}
-
-.botao-proximo {
+.botao {
     background-color: #FFF;
     border: 0;
     border-radius: 10px;
@@ -84,10 +79,16 @@ h2 {
     width: 150px;
 }
 
+.cancelar {
+  background-color: #E6485E;
+  color: #FFF;
+  font-weight: bold;
+}
+
 .subtitulo-confirmacao {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
-  font-weight: 500; 
+  font-weight: bold; 
   margin-bottom: 0px;
 }
 
@@ -97,6 +98,25 @@ h2 {
   width: 30px; 
   height: 1px;
   margin: 5px 10px 5px;
+}
+
+.titulocampo-confirmacao {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 0px;
+}
+
+.campo-confirmacao {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.95em;
+  font-weight: 400; 
+  margin-bottom: 0px;
+}
+
+.campoFilial-confirmacao {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 0px;
 }
 
 .botao-proximo:hover {
@@ -115,4 +135,18 @@ h2 {
 
 .zera-padding {
 	padding: 0;	
+}
+
+.texto-bold {
+  font-weight: bold;
+}
+
+a {
+  color: #E6485E;
+  font-weight: bold; 
+}
+
+a:hover {
+  color: #E9000E;
+  font-weight: bold; 
 }
