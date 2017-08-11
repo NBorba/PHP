@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>APS 01 - Cadastro de produto</title>
+	<title>Cadastro de produto - Etapa 03</title>
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -34,12 +34,12 @@
 	<hr>
 
 	<?php 
-			// Recebe dados dos campos da Etapa 1
-			$codProd		= $_POST['codProd'];
-			$nomeProd		= $_POST['nomeProd'];
-			$descricaoProd	= $_POST['descricaoProd'];
-			$categoriaProd	= $_POST['categoriaProd'];
-			$marcaProd		= $_POST['marcaProd'];
+		// Recebe dados dos campos da Etapa 1
+		$codProd		= $_POST['codProd'];
+		$nomeProd		= $_POST['nomeProd'];
+		$descricaoProd	= $_POST['descricaoProd'];
+		$categoriaProd	= $_POST['categoriaProd'];
+		$marcaProd		= $_POST['marcaProd'];
 
 		// Se todos os campos estão preenchidos
 		if (!empty($_POST['fornecedorProd']) &&

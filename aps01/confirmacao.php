@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>APS 01 - Confirmação de cadastro</title>
+	<title>Confirmação de cadastro</title>
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -65,7 +65,7 @@
 		}
 
 		// Título da página 
-		echo "<h2>Cadastro de Produto <span class='subtitulo'>Confirmação dos dados</span></h2>";
+		echo "<h2>Cadastro de Produto <span class='subtitulo'><b>Confirmação dos dados</b></span></h2>";
 		echo "<span class='descricao-obrigatorio'>Verifique os dados do novo produto e clique em <span class='vermelho-salmao'>'Confirmar cadastro'</span> para finalizar o cadastro.</span>";
 		echo "<hr>";
 

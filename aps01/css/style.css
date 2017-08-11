@@ -3,6 +3,12 @@ html {
 }
 
 /* Layout */
+.titulo-inicio {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 h2 {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
@@ -97,7 +103,7 @@ h2 {
   color: #E6485E;
   width: 30px; 
   height: 1px;
-  margin: 5px 10px 5px;
+  margin: 5px 9px 5px;
 }
 
 .titulocampo-confirmacao {
@@ -149,4 +155,11 @@ a {
 a:hover {
   color: #E9000E;
   font-weight: bold; 
+}
+
+.centralizar {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

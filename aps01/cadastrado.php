@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>APS 01 - Produto cadastrado</title>
+	<title>Sucesso - Produto cadastrado</title>
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -27,7 +27,7 @@
 </head> 
 <body>
 	<!-- Título da página -->
-	<h2>Produto cadastrado com sucesso!<span class="subtitulo"><a href="index.php">Voltar para o início do cadastro</a></h2>
+	<h2>Produto cadastrado com sucesso!<span class="subtitulo"><a href="etapa1.php">Voltar para o início do cadastro</a></h2>
 	<!-- Descrição de campos obrigatórios -->
 	<hr>
 </body>
