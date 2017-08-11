@@ -101,9 +101,9 @@
 		if ($filiaisVenda == 'Nenhuma filial de venda escolhida') {
 			echo "<span class='titulocampo-confirmacao'>Filiais de venda: <span class='campo-confirmacao vermelho-salmao'>" . $filiaisVenda . "</span></span><br>";
 		} else {
-			echo "<span class='titulocampo-confirmacao'>Filial(is) de venda: </span><br>";
+			echo "<span class='titulocampo-confirmacao'>Filial(is) de venda: </span>";
 			foreach ($filiaisVenda as $filial) {
-				echo "<span class='campoFilial-confirmacao vermelho-salmao'>" . $filial . "</span><br>";
+				echo "<span class='campoFilial-confirmacao vermelho-salmao'>" . $filial . " | </span>";
 			}
 		}
 		
