@@ -95,10 +95,10 @@
 		<!-- Campo de Preferências --> 
 		<p>
 			<label class="titulo-campo" for="filVenda">Filial de venda <span class="subtitulo-campo vermelho-salmao">(Deixe vazio para indicar 'Nenhuma')</span></label><br>
-			<input class="margin-checkbox" type="checkbox" id="filialUm" name="filiaisVenda[]" value="Filial Matriz"><label class="titulo-campo" for="filialUm">Filial Matriz</label><br>
+			<input class="margin-checkbox" type="checkbox" id="matriz" name="filiaisVenda[]" value="Matriz"><label class="titulo-campo" for="matriz">Matriz</label><br>
+			<input type="checkbox" id="filialUm" name="filiaisVenda[]" value="Filial 1"><label class="titulo-campo" for="filialUm">Filial 1</label><br>
 			<input type="checkbox" id="filialDois" name="filiaisVenda[]" value="Filial 2"><label class="titulo-campo" for="filialDois">Filial 2</label><br>
 			<input type="checkbox" id="filialTres" name="filiaisVenda[]" value="Filial 3"><label class="titulo-campo" for="filialTres">Filial 3</label><br>
-			<input type="checkbox" id="filialQuatro" name="filiaisVenda[]" value="Filial 4"><label class="titulo-campo" for="filialQuatro">Filial 4</label><br>
 		</p>
 		<!-- Salvamento dos valores em variáveis para envio para próxima página -->		
 		<input type="hidden" name="codProd" value="<?php echo $codProd; ?>">	
